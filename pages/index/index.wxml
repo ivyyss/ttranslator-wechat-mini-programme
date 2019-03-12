@@ -1,0 +1,30 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="change">
+    <navigator url="/pages/change/change" hover-class="navigator-hover">
+    　<text>到{{curLang}}</text>
+      <text class="iconfont icon-down"></text>
+    </navigator>
+  </view>
+ 
+  <view class="input-area">
+    <text class="iconfont icon-close" bindtap='onTextClear' hidden="{{hideClearIcon}}"></text>
+    <view class="textarea-wrap">
+          <textarea placeholder="请输入需要翻译的文本" placeholder-style='color:#888888;' bindinput='onInput' bindconfirm='onConfirm' bindblur='onConfirm' value="{{query}}"></textarea>
+    </view>
+  
+
+    <view class="text-area">
+      <view class="text-title">译文</view>
+      <view class="text-result" wx:for="{{result}}" wx:key="index">
+        <text selectable='true'>{{item.dist}}</text>
+      </view>
+    </view>
+  </view>
+
+  
+  <view class="copyright">
+    <text>@yss 2019</text>
+  </view>
+ 
+</view>

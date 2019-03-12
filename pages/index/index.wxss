@@ -1,0 +1,41 @@
+/**index.wxss**/
+.change{
+  font-size: 28rpx;
+  color: #888888;
+}
+.change text{
+  padding-right: 10rpx;
+}
+navigator{
+  padding: 15rpx 0 15rpx 10rpx;
+}
+.input-area{
+  position: relative;
+  background-color: #ffffff;
+  min-height: 80rpx;
+}
+.textarea-wrap{
+  width:680rpx;
+}
+.icon-close{
+  padding-top: 15rpx;
+  position: absolute;
+  right: 35rpx;
+  color: #888888;
+}
+.textarea-wrap{
+  background: #ffffff;
+}
+textarea{
+  padding:15rpx 0 15rpx 35rpx;
+}
+.input-area .text-area{
+  border-top: 1px solid #c7cee0;
+  padding: 15rpx 0 15rpx 35rpx;
+  min-height: 80rpx;
+}
+.text-area .text-title{
+  font-size: 28rpx;
+  color: #888888;
+}
+

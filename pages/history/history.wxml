@@ -1,0 +1,1 @@
+<view bindtap="showstart" class="page-container">start learning wechat,{{name}}</view>
