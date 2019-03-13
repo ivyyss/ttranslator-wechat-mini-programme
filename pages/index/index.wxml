@@ -2,7 +2,7 @@
 <view class="container">
   <view class="change">
     <navigator url="/pages/change/change" hover-class="navigator-hover">
-    　<text>到{{curLang}}</text>
+    　<text>到{{curLang.chs}}</text>
       <text class="iconfont icon-down"></text>
     </navigator>
   </view>
@@ -17,7 +17,7 @@
     <view class="text-area">
       <view class="text-title">译文</view>
       <view class="text-result" wx:for="{{result}}" wx:key="index">
-        <text selectable='true'>{{item.dist}}</text>
+        <text selectable='true'>{{item.dst}}</text>
       </view>
     </view>
   </view>

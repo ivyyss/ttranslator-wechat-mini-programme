@@ -11,17 +11,17 @@ Page({
     curLang:{}
   },
   onLoad: function (options) {
-    console.log('lonload..')
-    console.log(options)
+    console.log('loading')
+    // console.log(options.query)
     if (options.query) {
       this.setData({ query: options.query })
     }
   },
-  onShow: function () {
-    console.log(pp.globalData.curLang.lang)
-    if (this.data.curLang.lang !== app.globalData.curLang.lang) {
-      this.setData({ curLang: app.globalData.curLang })
-      this.onConfirm()
+  onShow: function () { 
+    // console.log(app.globalData)
+    if (this.data.curLang!== app.globalData.curLang) {
+     this.setData({curLang: app.globalData.curLang })
+     this.onConfirm()
     }
   },
 

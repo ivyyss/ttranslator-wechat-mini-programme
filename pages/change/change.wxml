@@ -1,6 +1,10 @@
-<!--logs.wxml-->
-<view class="container log-list">
-  <block wx:for="{{logs}}" wx:for-item="log">
-    <text class="log-item">{{index + 1}}. {{log}}</text>
-  </block>
+<!--change.wxml-->
+<view class="container lang-list">
+  <view class='title'>翻译到</view>
+  <view class='list' wx:for="{{langList}}" wx:for-item="language" data-lang="{{language.lang}}" data-index="{{index}}" data-chs="{{language.chs}}" wx:key="index" bindtap='onTapItem' hover-class='view-hover'>
+    <view class='listInner'>
+      <text class='txt'>{{language.chs}}</text>
+      <text class="iconfont icon-shoujiduihao" wx:if="{{index===curLang.index}}"></text>
+    </view>
+  </view>
 </view>

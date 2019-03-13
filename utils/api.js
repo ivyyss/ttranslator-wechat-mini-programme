@@ -18,8 +18,8 @@ module.exports = function translate(q, { from = 'auto', to = 'auto' } = { from: 
         sign
       },
       success(res) {
-        console.log('哈哈哈成功')
-        console.log(res.data)
+        // console.log('哈哈哈成功，拿到了翻译结果')
+        // console.log(res)
         if(res.data&&res.data.trans_result){
           resolve(res.data)
           }else{
