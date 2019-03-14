@@ -6,14 +6,14 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#3B3838",
+    "navigationBarBackgroundColor": "#365669",
     "navigationBarTitleText": "翻译小助手",
     "navigationBarTextStyle": "white"
   },
   "tabBar": {
-    "color": "#C7EEE3",
-    "selectedColor": "#FAFEFB",
-    "backgroundColor": "#00DCA1",
+    "color": "#F8F7F6",
+    "selectedColor": "#FFD400",
+    "backgroundColor": "#365669",
     "position": "top",
     "list": [
       {

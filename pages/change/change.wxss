@@ -1,8 +1,30 @@
-.log-list {
+
+.title{
+  font-size: 28rpx;
+  color: #FFD400;
+  background-color: #365669;
+  padding: 25rpx 0 25rpx 65rpx;
+}
+.list{
+  padding: 0 35rpx 0 35rpx;
   display: flex;
   flex-direction: column;
-  padding: 40rpx;
+  
 }
-.log-item {
-  margin: 10rpx;
+.icon-shoujiduihao{
+   color: #FFD400;
+}
+.view-hover{
+  background-color: #50819B;
+}
+.listInner{
+  color:white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25rpx 30rpx 25rpx 30rpx;
+}
+
+.container.lang-list{
+  background-color: #365669;
 }

@@ -1,7 +1,7 @@
-<scroll-view scroll-y class="container">
-  <view class='historyList'>
+<scroll-view scroll-y class="container history">
     <view class="title">翻译历史</view>
-    <view class="item" wx:for="{{history}}" wx:key="index" bindtap='onTapItem' data-query="{{item.query}}" data-langId="{{item.langIndex}}">
+     <view class='historyList'>
+    <view class="item" hover-class="view-hover" wx:for="{{history}}" wx:key="index" bindtap='onTapItem' data-query="{{item.query}}" data-langId="{{item.langIndex}}">
       <view class="query">{{item.query}}</view>
       <view class="result">{{item.result}}</view>
     </view>

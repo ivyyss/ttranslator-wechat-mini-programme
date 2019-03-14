@@ -1,3 +1,23 @@
-.page-container{
-  color: red;
+
+.title{
+  font-size: 28rpx;
+  color: #FFD400;
+  background-color: #365669;
+  padding: 45rpx 0 45rpx 55rpx;
+}
+.item{
+  color:white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 15rpx 55rpx 15rpx 55rpx;
+}
+.historyList{
+  padding-bottom: 15rpx;
+}
+.container.history{
+  background-color: #365669;
+}
+.view-hover{
+   background-color: #50819B;
 }

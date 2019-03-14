@@ -1,41 +1,54 @@
 /**index.wxss**/
+
 .change{
   font-size: 28rpx;
-  color: #888888;
-}
-.change text{
-  padding-right: 10rpx;
+  background-color: #365669;
+  color: #FFD400;
 }
 navigator{
-  padding: 15rpx 0 15rpx 10rpx;
+  padding: 45rpx 0 45rpx 45rpx;
 }
 .input-area{
   position: relative;
   background-color: #ffffff;
   min-height: 80rpx;
-}
-.textarea-wrap{
-  width:680rpx;
+  margin-right:45rpx;
+  margin-left:45rpx;
 }
 .icon-close{
-  padding-top: 15rpx;
+  padding-top: 20rpx;
   position: absolute;
   right: 35rpx;
-  color: #888888;
+  color: white;
+  z-index: 3;
 }
 .textarea-wrap{
-  background: #ffffff;
+  background: #87CCD9;
+  color: white;
+  border-radius: 20rpx;
+  margin-bottom: 20rpx;
 }
 textarea{
-  padding:15rpx 0 15rpx 35rpx;
+ width:auto;
+ padding:35rpx 80rpx 35rpx 35rpx;
 }
 .input-area .text-area{
-  border-top: 1px solid #c7cee0;
-  padding: 15rpx 0 15rpx 35rpx;
-  min-height: 80rpx;
+  padding:35rpx 80rpx 35rpx 35rpx;
+  min-height: 220rpx;
+  background-color: #A3A4D9;
+  border-radius: 20rpx;
 }
 .text-area .text-title{
   font-size: 28rpx;
-  color: #888888;
+   color: white;
 }
 
+.text-result{
+color:white;
+}
+.placeholder{
+  font-size: 28rpx;
+}
+.input-area{
+  background-color:  #365669;
+}

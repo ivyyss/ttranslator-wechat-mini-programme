@@ -1,16 +1,6 @@
 /**app.wxss**/
 @import "./assets/iconfont/iconfont.wxss";
 
-.container {
-  padding: 0;
-  background-color:#F4F4F4;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  font-size: 30rpx;
-  color:#333333;
-} 
 
 .copyright{
   align-self: center;
@@ -21,3 +11,13 @@
   font-size: 28rpx;
   color: #888888;
 }
+.container {
+  padding: 0;
+  background-color: #365669;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  font-size: 30rpx;
+  color:#888888;
+} 
