@@ -5,7 +5,7 @@ Page({
     history: []
   },
   onTapItem:function(e){
-    console.log(e.currentTarget)
+    // console.log(e.currentTarget)
     wx.reLaunch({
       url: `/pages/index/index?query=${e.currentTarget.dataset.query}`
     })

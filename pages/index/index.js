@@ -11,7 +11,7 @@ Page({
     curLang:{}
   },
   onLoad: function (options) {
-    console.log('loading')
+    // console.log('loading')
     // console.log(options.query)
     if (options.query) {
       this.setData({ query: options.query })

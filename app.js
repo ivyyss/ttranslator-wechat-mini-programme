@@ -42,6 +42,31 @@ App({
         'chs': '阿拉伯语',
         'lang': 'ara',
         "index": 6
+      },
+      {
+        'chs': '粤语',
+        'lang': 'yue',
+        "index": 7
+      },
+      {
+        'chs': '德语',
+        'lang': 'de',
+        "index": 8
+      },
+      {
+        'chs': '意大利语',
+        'lang': 'it',
+        "index": 9
+      },
+      {
+        'chs': '俄语',
+        'lang': 'ru',
+        "index": 10
+      },
+      {
+        'chs': '繁体中文',
+        'lang': 'cht',
+        "index": 11
       }
     ]
   }

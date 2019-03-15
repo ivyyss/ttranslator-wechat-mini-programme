@@ -14,7 +14,7 @@
 .container {
   padding: 0;
   background-color: #365669;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;

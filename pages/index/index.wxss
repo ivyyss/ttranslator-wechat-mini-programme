@@ -33,12 +33,14 @@ navigator{
 textarea{
  width:auto;
  padding:10rpx 80rpx 35rpx 35rpx;
+ overflow: scroll;
 }
 .input-area .text-area{
   padding:35rpx 80rpx 35rpx 35rpx;
   min-height: 220rpx;
   background-color: #A3A4D9;
   border-radius: 20rpx;
+  margin-bottom: 100rpx;
 }
 .text-area .text-title{
   font-size: 28rpx;

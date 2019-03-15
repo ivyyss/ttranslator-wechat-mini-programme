@@ -9,9 +9,6 @@ Page({
     langList:app.globalData.langList
   },
   onShow:function(e){
-    wx.setNavigationBarTitle({
-      title: '语言选择'
-    })
     this.setData({curLang:app.globalData.curLang})
   },
   onTapItem:function(e){
