@@ -10,6 +10,7 @@
   <view class="input-area">
     <text class="iconfont icon-close" bindtap='onTextClear' hidden="{{hideClearIcon}}"></text>
     <view class="textarea-wrap">
+    <view class="title-input">原文</view>
           <textarea placeholder-class="placeholder" placeholder="请输入需要翻译的文本" placeholder-style='color: white;' bindinput='onInput' bindconfirm='onConfirm' bindblur='onConfirm' value="{{query}}"></textarea>
     </view>
   

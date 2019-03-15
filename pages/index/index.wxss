@@ -16,9 +16,11 @@ navigator{
   margin-left:45rpx;
 }
 .icon-close{
-  padding-top: 20rpx;
+  font-size: 28rpx;
   position: absolute;
-  right: 35rpx;
+  padding:25rpx 15rpx 15rpx 0;
+  top:75rpx;
+  right: 20rpx;
   color: white;
   z-index: 3;
 }
@@ -30,7 +32,7 @@ navigator{
 }
 textarea{
  width:auto;
- padding:35rpx 80rpx 35rpx 35rpx;
+ padding:10rpx 80rpx 35rpx 35rpx;
 }
 .input-area .text-area{
   padding:35rpx 80rpx 35rpx 35rpx;
@@ -40,10 +42,19 @@ textarea{
 }
 .text-area .text-title{
   font-size: 28rpx;
-   color: white;
+  padding-bottom: 10rpx;
+  border-bottom: 1px dotted #E2E1E3;
+  color: white;
 }
-
+.title-input{
+  font-size: 28rpx;
+  padding:35rpx 0 10rpx 0;
+  margin:0 80rpx 0 35rpx;
+  padding-bottom: 10rpx;
+  border-bottom: 1px dotted #E2E1E3;
+}
 .text-result{
+  padding-top: 10rpx;
 color:white;
 }
 .placeholder{
