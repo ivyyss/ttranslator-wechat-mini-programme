@@ -40,7 +40,7 @@ textarea{
   min-height: 220rpx;
   background-color: #A3A4D9;
   border-radius: 20rpx;
-  margin-bottom: 100rpx;
+  margin-bottom: 25rpx;
 }
 .text-area .text-title{
   font-size: 28rpx;
@@ -65,3 +65,14 @@ color:white;
 .input-area{
   background-color:  #365669;
 }
+
+
+.input-area .copy{
+  font-size: 28rpx;
+  background-color: #F19DB9;
+  color: #ffffff;
+  border-radius: 6rpx;
+  text-align: center;
+  padding: 4rpx 2rpx;
+ margin-bottom: 25rpx;
+} 

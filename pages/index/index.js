@@ -7,6 +7,7 @@ Page({
   data: {
     query: '',
     hideClearIcon: true,
+    hideCopyBtn: true,
     result:[],
     curLang:{}
   },
@@ -37,12 +38,24 @@ Page({
   onConfirm:function(e){
     if(!this.data.query) return
     translate(this.data.query,{from: 'auto', to: this.data.curLang.lang}).then(res=>{
+      console.log('res')
+      console.log(res.trans_result)
+      
       this.setData({'result':res.trans_result})
+      
 
       let history =wx.getStorageSync('history')||[]
       history.unshift({query: this.data.query, result: res.trans_result[0].dst})
       history.length=history.length > 10 ? 10 : history.length
       wx.setStorageSync('history', history)
+    })
+    this.setData({hideCopyBtn:false})
+  },
+  onCopy:function(e){
+    wx.setClipboardData({
+      data: this.data.result[0].dst,
+      success: function (res) {
+      }
     })
   },
   onTextClear:function(e){

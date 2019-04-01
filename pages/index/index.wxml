@@ -11,21 +11,22 @@
     <text class="iconfont icon-close" bindtap='onTextClear' hidden="{{hideClearIcon}}"></text>
     <view class="textarea-wrap">
     <view class="title-input">原文</view>
-          <textarea placeholder-class="placeholder" placeholder="请输入需要翻译的文本" placeholder-style='color: white;' maxlength="-1" bindinput='onInput' bindconfirm='onConfirm'  bindblur='onConfirm' value="{{query}}"></textarea>
+          <textarea placeholder-class="placeholder" placeholder="请输入需要翻译的文本" placeholder-style='color: white;' maxlength="-1" bindinput='onInput' bindconfirm='onConfirm'  value="{{query}}"></textarea>
     </view>
   
 
     <view class="text-area">
-      <view class="text-title">译文</view>
+      <view class="text-title">译文</view>   
       <view class="text-result" wx:for="{{result}}" wx:key="index">
         <text selectable='true'>{{item.dst}}</text>
       </view>
     </view>
+         <view class="copy" bindtap='onCopy' hidden="{{hideCopyBtn}}">译文一键复制</view>
   </view>
 
   
   <view class="copyright">
-    <text>Develop By YSS 2019</text>
+    <text>Developed By YSS 2019</text>
   </view>
  
 </view>
